@@ -1,0 +1,288 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:open sans;
+	font-size: 14px;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: montserrat;
+	
+}
+a, a: hover{
+	text-decoration: none;
+}
+
+/*main code start here*/
+
+/*.header-section code start here*/
+.header-section {
+    width: 100%;
+    background: url(../images/banner.png) center top no-repeat;
+    background-size: cover;
+    padding: 10px 0px 138px 0px;
+
+	
+}
+.header-section .menu{
+	width: 100%;
+	padding: 0px 120px 0px 170px;
+}
+.menu .bg-light{
+	background: transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	margin: 0px 5px;
+	font-size: 15px;
+	font-weight: 700;
+	padding-bottom: 0px;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+	color:#f3879e;
+}
+.menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #ffc178;
+	border-bottom: 2px solid #ffc178;
+}
+.menu .btn-info{
+	padding: 5px 45px;
+	background: #fff;
+	color: #1c2056;
+	border: 0px;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: 700;
+	transition: 1s ease-in;
+}
+.menu .btn-info:hover, .menu .btn-info:focus{
+	background: #f3879e;
+	color: #fff;
+	border: 0px;
+	box-shadow: none !important;
+}
+.header-section .banner{
+	width: 100%;
+	padding: 80px 0px 170px;
+
+}
+.banner .banner-inner {
+    width: 100%;
+    padding: 0px 0px 0px 170px;
+}
+.banner .banner-inner h1{
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #1c2056;
+}
+.banner .banner-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #9ca6aa;
+}
+.banner .banner-inner .btn-info{
+	margin-top: 50px;
+	padding: 10px 35px;
+	background: #2870db;
+	color: #fff;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 15px;
+	transition: 1s ease-in;
+}
+.banner .banner-inner .btn-info:hover, .banner .banner-inner .btn-info:focus{
+	background: #1c2056;
+	color: #ffc178;
+	border: 0px;
+}
+
+/*.header-section code end here*/
+
+/*.invision-section code start here*/
+.envision-section{
+	width: 100%;
+	background: url(../images/banner2.png) center top no-repeat;
+	background-size: cover;
+	
+}
+.envision-section .title h4{
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 20px;
+
+}
+.envision-section .card{
+	margin: 20px 100px;
+    border: 0px;
+    box-shadow: 5px 10px #888888;
+
+}
+
+.envision-section .card .card-body h5{
+	font-size: 16px;
+	font-weight: 700;
+	color: #263238;
+	padding-bottom: 5px;
+}
+.envision-section .card .card-body p{
+	font-size: 14px;
+	color: #546e7a;
+	
+}	
+.envision-section .btn-info{
+	margin-top: 75px;
+    margin-left: 93px;
+	padding: 10px 35px;
+	background: #2870db;
+	color: #fff;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 15px;
+	transition: 1s ease-in;
+}
+.envision-section .btn-info:hover, .envision-section .btn-info:focus{
+	background: #1c2056;
+	color: #ffc178;
+	border: 0px;
+}
+
+.envision-section .title-support h4{
+	text-align: center;
+	font-weight: 600;
+	margin: 44px 0px;
+
+}
+.envision-section .info-inner{
+	width: 100%;
+
+}
+.envision-section .info-inner p{
+	text-align: center;
+	font-size: 18px;
+	color: #546e7a;
+	
+} 
+.envision-section .info-inner h2{
+	text-align: center;
+	font-weight: 600;
+	color: #1a56a3;
+}
+
+
+/*.envision-section code end here*/
+
+/*protecting-trails code start here*/
+
+.protecting-trails{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/fimg.png) center left no-repeat;
+	background-size: 100px 400px;
+	background-color:  #fbfcfc;
+}
+.protecting-trails .title{
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 30px;
+
+}
+.protecting-trails .card{
+	border-radius: 20px;
+	border: 2px solid #fff;
+	background-color:  #fff;
+
+}
+.protecting-trails .card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.protecting-trails .card .card-title{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #263238;
+
+}
+.protecting-trails .card .card-text{
+	font-size: 14px;
+	font-weight: 400;
+	color: #546e7a;
+}
+
+/*protecting-trails code end here*/
+
+/*footer-section code start here*/
+
+.footer-section{
+	width: 100%;
+	background: url(../images/fbanner.png) center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+.footer-section .subscribe-section .title{
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 50px;
+}
+.footer-section .subscribe-section .contact-form{
+	width: 100%;
+	background: transparent;
+
+}
+.footer-section .subscribe-section .contact-form .form-control{
+	width: 65%;
+	border-radius: 10px;
+	margin: 30px 0px 0px 60px;
+}
+.footer-section .subscribe-section .contact-form .btn-info{
+
+	width: 100%;
+	padding: 10px 30px;
+	background: #15A4FA;
+	color: #fff;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 700;
+	text-decoration: none;
+	border: 2px solid #15a4fa;
+	border-radius: 30px;
+
+
+	
+}
+.footer-section .main-footer{
+	width: 100%;
+	margin-top: 70px;
+}
+.footer-section .main-footer h5{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #fff;
+	padding-bottom: 5px;
+}
+.footer-section .main-footer p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	
+}
+.footer-section .main-footer .social-icons{
+	width: 100%;
+} 
+.footer-section .main-footer li{
+	display: inline-block;
+	list-style: none;
+}
+.footer-section .main-footer li a{
+	color: #fff;
+	font-size: 18px;
+	margin: 0px 10px 0px 0px;
+}
+/*footer-section code end here*/
